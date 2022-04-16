@@ -1,0 +1,379 @@
+/*1234567890*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 200px;
+  border: 2px dashed #F2F2F2;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-right: 5px;
+}
+
+.gluten {
+  color: #864000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.text {
+  padding: 0 20px;
+  font-size: 14px;
+  width: 40%;
+}
+
+.red {
+  color: red;
+}
+
+.desc {
+  color: grey;
+}
+
+.titlz {
+  font-family: Snell Roundhand, cursive;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.line {
+  text-decoration: underline;
+  color: green;
+  font-size: 16px;
+  font-family: Snell Roundhand, cursive;
+  font-style: italic;
+}
+
+.aform {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+.myform {
+  padding: 0 20px;
+}
+
+.txtbox {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #EBECF0;
+  color: grey;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+img {
+    width: 60%;
+  height: 300px;
+  border-radius: 7px 0 0 7px;
+}
+
+
+
+
+
+/* BaconA Group CSS*/
+
+.baconA{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Pancetta CSS*/
+
+.pancetta {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.pancetta:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.panc {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.sixteen{
+  font-size: 15px;
+
+}
+
+.ptext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+/* American Bacon CSS*/
+.america {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.ame {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.atext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+.america:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Canadian Bacon CSS*/
+.canada {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.cana {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.ctext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+.canada:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* BaconB Group CSS*/
+
+.baconB{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin:  50px 0 150px;
+}
+
+/* Pancetta CSS*/
+
+.slab {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.slab:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sla {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.sixteen{
+  font-size: 15px;
+
+}
+
+.stext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+/* Irish Bacon CSS*/
+.irish {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.iri {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.itext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+.irish:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Rashers Bacon CSS*/
+.rashers {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  overflow: hidden;
+  margin-left: 200px;
+}
+
+.rash {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+}
+
+.rtext {
+  padding: 5px 16px 0;
+   overflow-x: hidden;
+}
+
+.rashers:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Footer CSS*/
+.footer{
+  width: 100%;
+  position:fixed;
+  left: 0;
+bottom: 0;
+  height: 100px;
+  background-color: black;
+   color: white;
+   text-align: center;
+
+}
+
+footer{
+  margin: 40px 0;
+}
+
+/* Nav Bar CSS*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+.bt {
+  float: left;
+}
+
+.titl {
+  margin: 100px 0 0 0;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+li a:hover {
+  color: #D44000;
+}
+
+.active {
+  background-color: red;
+  color: #000000;
+}
+
+.abt {
+  float: right;
+  padding-right: 20px;
+}
+
+.navbar{
+  width: 100%;
+  position:fixed;
+  left: 0;
+top: 0;
+}
