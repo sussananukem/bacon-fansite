@@ -224,8 +224,11 @@ li a:hover {
 }
 
 .navbar{
-  width: 100%;
-  position:fixed;
-  left: 0;
-top: 0;
+   margin-left: 0;
+
+
+}
+
+body{
+  margin: 0;
 }
